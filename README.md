@@ -2,9 +2,9 @@
  
  >git clone ht<span>tps://github.com/brudalevante/woziwrt-1.git
  
- >chmod 776 -R woziwrt-1.
+ >chmod 776 -R woziwrt-1
  
- >cd woziwrt-1.
+ >cd woziwrt-1
  
  BEFORE RUNNING BUILDER READ ALL COMMENTS IN THE SCRIPT !
  
