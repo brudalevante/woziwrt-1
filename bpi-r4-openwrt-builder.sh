@@ -15,10 +15,10 @@
 rm -rf openwrt
 rm -rf mtk-openwrt-feeds
 
-git clone --branch openwrt-24.10 https://git.openwrt.org/openwrt/openwrt.git openwrt || true
+git clone --branch openwrt-24.10 https://github.com/brudalevante/openwrt-15-08-25.git openwrt || true
 cd openwrt; git checkout 4941509f573676c4678115a0a3a743ef78b63c17; cd -;		#uhttpd: update to Git HEAD (2025-07-06)
 
-git clone  https://git01.mediatek.com/openwrt/feeds/mtk-openwrt-feeds || true
+git clone  https://github.com/brudalevante/mtk-openwrt-feeds-15-08-2025.git || true
 cd mtk-openwrt-feeds; git checkout 39d725c3e3b486405e6148c8466111ef13516808; cd -;	#Refactor wed amsdu init value 
 
 echo "39d725" > mtk-openwrt-feeds/autobuild/unified/feed_revision
